@@ -2,11 +2,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Server",
+            "name": "jan17",
             "type": "go",
             "request": "launch",
-            "mode": "debug",
-            "program": "${workspaceFolder}/server.go"
+            "program": "${workspaceFolder}/main",
+            "console": "integratedTerminal",
+            "preLaunchTask": "build"
         }
     ]
 }

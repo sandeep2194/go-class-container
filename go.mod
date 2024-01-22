@@ -1,3 +1,3 @@
-module github.com/microsoft/vscode-remote-try-go
+module main
 
 go 1.19
