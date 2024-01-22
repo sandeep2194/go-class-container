@@ -14,7 +14,7 @@ func (nf NumFinder) findEven(a []int) []int {
 	return evens
 }
 
-func assign() {
+func assignJan17() {
 	nf := NumFinder{}
 	sampleArray := []int{1, 2, 358, 412, 502, 6, 7, 8, 9, 10, 907, 291}
 	evenNumbers := nf.findEven(sampleArray)
